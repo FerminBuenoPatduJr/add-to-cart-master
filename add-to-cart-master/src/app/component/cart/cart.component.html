@@ -22,8 +22,8 @@
               <td><img style="width: 120px;" src="{{item.image}}" alt=""></td>
               <td style="width: 25%;">{{item.description}}</td>
               <th style="width: 12%;">{{item.price}}</th>
-              <td style="width: 12%;"><button type="button" (click)="minus()"><i class="fa fa-minus"></i></button> <input type="text"
-                  [value]="quantity"> <button type="button" (click)="plus()"><i class="fa fa-plus"></i></button>
+              <td style="width: 12%;"><button type="button" (click)="minus()"><i class="fa fa-minus"></i></button>
+                <input type="text" [value] = "quantity"> <button type="button" (click)="plus()"><i class="fa fa-plus"></i></button>
               </td>
               <td style="width: 12%;">{{item.total * quantity}}</td>
               <td>
